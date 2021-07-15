@@ -1,0 +1,15 @@
+uuid: df3cb518-ebf3-4bbe-945b-ab72354dd306
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.favourite
+  module:
+    - flag
+id: flag_action.favourite_unflag
+label: 'Remove from favourites'
+type: node
+plugin: 'flag_action:favourite_unflag'
+configuration:
+  flag_id: favourite
+  flag_action: unflag

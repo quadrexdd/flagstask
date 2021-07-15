@@ -1,0 +1,30 @@
+uuid: e306256a-b94d-4627-b948-4f2ee7db33c4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: favourite
+label: Favourite
+bundles:
+  - product
+entity_type: node
+global: false
+weight: 0
+flag_short: 'Add to favourites'
+flag_long: ''
+flag_message: 'You''ve added this product to favourites!'
+unflag_short: 'Remove from favourites'
+unflag_long: ''
+unflag_message: 'You''ve removed this product from favourites.'
+unflag_denied_text: ''
+flag_type: 'entity:node'
+link_type: ajax_link
+flagTypeConfig:
+  show_in_links: {  }
+  show_as_field: true
+  show_on_form: false
+  show_contextual_link: false
+  extra_permissions:
+    owner: '0'
+linkTypeConfig: {  }

@@ -1,0 +1,15 @@
+uuid: 766905ad-7930-4323-a58d-4b7a419f88d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.favourite
+  module:
+    - flag
+id: flag_action.favourite_flag
+label: 'Add to favourites'
+type: node
+plugin: 'flag_action:favourite_flag'
+configuration:
+  flag_id: favourite
+  flag_action: flag
